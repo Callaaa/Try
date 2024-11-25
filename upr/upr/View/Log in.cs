@@ -16,5 +16,24 @@ namespace upr.View
         {
             InitializeComponent();
         }
+
+        private void Log_in_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Press" && textBox2.Text == "123")
+            {
+                var admin = new Admin_Login();
+                admin.Closed += (s, args) => this.Hide();
+                admin.Show();
+            }
+            else
+            {
+                MessageBox.Show("greshni danni");
+            }
+        }
     }
 }

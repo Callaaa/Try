@@ -46,6 +46,7 @@
             this.button3.TabIndex = 21;
             this.button3.Text = "Вход";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -116,6 +117,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Log_in";
             this.Size = new System.Drawing.Size(584, 436);
+            this.Load += new System.EventHandler(this.Log_in_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

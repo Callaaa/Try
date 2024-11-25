@@ -54,12 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\About us.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="View\About us.Designer.cs">
-      <DependentUpon>About us.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\Gallery.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,9 +78,18 @@
     <Compile Include="View\Registration.Designer.cs">
       <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\About us.resx">
-      <DependentUpon>About us.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="View\UsAbput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UsAbput.Designer.cs">
+      <DependentUpon>UsAbput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Uspeshen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Uspeshen.Designer.cs">
+      <DependentUpon>Uspeshen.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="View\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +113,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UsAbput.resx">
+      <DependentUpon>UsAbput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Uspeshen.resx">
+      <DependentUpon>Uspeshen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

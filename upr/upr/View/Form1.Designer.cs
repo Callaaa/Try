@@ -35,9 +35,6 @@
             this.галерияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.услугиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.заНасToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.about_us1 = new upr.View.About_us();
-            this.log_in1 = new upr.View.Log_in();
-            this.registration1 = new upr.View.Registration();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,14 +64,14 @@
             // входToolStripMenuItem
             // 
             this.входToolStripMenuItem.Name = "входToolStripMenuItem";
-            this.входToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.входToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.входToolStripMenuItem.Text = "Вход";
             this.входToolStripMenuItem.Click += new System.EventHandler(this.входToolStripMenuItem_Click);
             // 
             // регистрацияToolStripMenuItem
             // 
             this.регистрацияToolStripMenuItem.Name = "регистрацияToolStripMenuItem";
-            this.регистрацияToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.регистрацияToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.регистрацияToolStripMenuItem.Text = "Регистрация";
             this.регистрацияToolStripMenuItem.Click += new System.EventHandler(this.регистрацияToolStripMenuItem_Click);
             // 
@@ -99,36 +96,12 @@
             this.заНасToolStripMenuItem.Text = "За нас";
             this.заНасToolStripMenuItem.Click += new System.EventHandler(this.заНасToolStripMenuItem_Click);
             // 
-            // about_us1
-            // 
-            this.about_us1.Location = new System.Drawing.Point(0, 27);
-            this.about_us1.Name = "about_us1";
-            this.about_us1.Size = new System.Drawing.Size(584, 436);
-            this.about_us1.TabIndex = 1;
-            // 
-            // log_in1
-            // 
-            this.log_in1.Location = new System.Drawing.Point(0, 27);
-            this.log_in1.Name = "log_in1";
-            this.log_in1.Size = new System.Drawing.Size(584, 436);
-            this.log_in1.TabIndex = 2;
-            // 
-            // registration1
-            // 
-            this.registration1.Location = new System.Drawing.Point(0, 27);
-            this.registration1.Name = "registration1";
-            this.registration1.Size = new System.Drawing.Size(584, 436);
-            this.registration1.TabIndex = 3;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 461);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.log_in1);
-            this.Controls.Add(this.registration1);
-            this.Controls.Add(this.about_us1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -150,9 +123,6 @@
         private System.Windows.Forms.ToolStripMenuItem услугиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem входToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem регистрацияToolStripMenuItem;
-        private View.About_us about_us1;
-        private View.Log_in log_in1;
-        private View.Registration registration1;
     }
 }
 

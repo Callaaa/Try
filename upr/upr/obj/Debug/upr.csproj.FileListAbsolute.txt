@@ -10,6 +10,7 @@ C:\Users\1409-4\Pictures\osim\upr\upr\obj\Debug\upr.csproj.GenerateResource.cach
 C:\Users\1409-4\Pictures\osim\upr\upr\obj\Debug\upr.csproj.CoreCompileInputs.cache
 C:\Users\1409-4\Pictures\osim\upr\upr\obj\Debug\upr.exe
 C:\Users\1409-4\Pictures\osim\upr\upr\obj\Debug\upr.pdb
-C:\Users\1409-4\Pictures\osim\upr\upr\obj\Debug\upr.View.About_us.resources
 C:\Users\1409-4\Pictures\osim\upr\upr\obj\Debug\upr.View.Log_in.resources
 C:\Users\1409-4\Pictures\osim\upr\upr\obj\Debug\upr.View.Registration.resources
+C:\Users\1409-4\Pictures\osim\upr\upr\obj\Debug\upr.View.Admin_Login.resources
+C:\Users\1409-4\Pictures\osim\upr\upr\obj\Debug\upr.View.UsAbput.resources

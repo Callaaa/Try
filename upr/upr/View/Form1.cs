@@ -16,9 +16,7 @@ namespace upr
         public Form1()
         {
             InitializeComponent();
-            log_in1.Hide();
-            registration1.Hide();
-            about_us1.Hide();
+            
         }
 
         private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -43,40 +41,43 @@ namespace upr
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            log_in1.Hide();         
-            registration1.Hide();
-            about_us1.Hide();
+          
         }
 
         private void заНасToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            log_in1.Hide();
-            about_us1.BringToFront();
-            registration1.Hide();
-            about_us1.Show();
+        {         
+            UsAbput about = new UsAbput();
+            this.Controls.Add(about);
+            about.Location = new Point(0, 27);
+            about.Size = new Size(584, 436);
+            about.Show();
+            about.BringToFront();           
         }
 
         private void началоToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            log_in1.Hide();
-            registration1.Hide();
-            about_us1.Hide();
+           
         }
 
         private void входToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            log_in1.Show();
-            log_in1.BringToFront();
-            registration1.Hide();
-            about_us1.Hide();
+            Log_in login = new Log_in();
+            this.Controls.Add(login);
+            login.Location = new Point(0, 27);
+            login.Size = new Size(584, 436);
+            login.Show();
+            login.BringToFront();
         }
 
         private void регистрацияToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            log_in1.Hide();
-            registration1.BringToFront();
-            registration1.Show();
-            about_us1.Hide();
+
+            Registration registrate = new Registration();
+            this.Controls.Add(registrate);
+            registrate.Location = new Point(0, 27);
+            registrate.Size = new Size(584, 436);
+            registrate.Show();
+            registrate.BringToFront();
         }
     }
 }
